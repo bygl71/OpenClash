@@ -15,6 +15,8 @@ fmz200
 [任务仓库订阅](https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_tasks.json)    
 [cookie获取](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet)    
 [boxjs订阅](https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json)    
+id77    
+[Github](https://github.com/id77/QuantumultX)    
     
     
 图标集   
