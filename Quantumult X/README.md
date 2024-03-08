@@ -10,6 +10,12 @@ WowYiJiu
 [Github](https://github.com/WowYiJiu/Personal)    
 [任务仓库订阅](https://raw.githubusercontent.com/WowYiJiu/Personal/main/Gallery.json)       
 [cookie获取](https://raw.githubusercontent.com/WowYiJiu/Personal/main/YiJiu_GetCookie.conf)    
+fmz200  
+[Github](https://github.com/fmz200/wool_scripts/tree/main)    
+[任务仓库订阅](https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_tasks.json)    
+[cookie获取](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet)    
+[boxjs订阅](https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json)    
+    
     
 图标集   
 [Sakura 图标](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.icons.json)    
