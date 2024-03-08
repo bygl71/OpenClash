@@ -1,0 +1,16 @@
+{
+    "name": "🍍任务仓库2",
+    "description": "update 24-03-08,配合WowYiJiu_GetCookie/ fmz200_cookies",
+    "task": [
+    "40 6 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, tag=高德地图, img-url=https://raw.githubusercontent.com/WowYiJiu/Personal/main/icon/gaode.jpg, enabled=true",
+    "45 6 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weibo_sign.js, tag=新浪微博, img-url=https://raw.githubusercontent.com/WowYiJiu/Personal/main/icon/weibo.png, enabled=true",
+    "20 7 * * * https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/burning.js, tag=超燃汇, img-url=https://raw.githubusercontent.com/WowYiJiu/Personal/main/icon/burning.png, enabled=true",
+    "0 7,11,17 * * * https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, tag=阿里云盘签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png, enabled=true",
+    "10 0,8,12,18 * * * https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_fruit.js, tag=滴滴橙心果园, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/didi.png, enabled=true",
+    "15 8,10,12,18,20 * * * https://raw.githubusercontent.com/LinYuanovo/scripts/main/dygy.js, tag=抖音果园, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/tiktok.png, enabled=true",
+    "15 7 * * * https://github.com/fmz200/wool_scripts/raw/main/Scripts/douyu/yubaSign.js, tag=斗鱼鱼吧签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/douyu.png, enabled=true",
+    "15 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weibo_sign.js, tag=新浪微博签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Weibo-00.png, enabled=true",
+    "16 7 * * * https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xxyx/xxyx_signin.js, tag=晓晓优选签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/xxyx.jpeg, enabled=true",
+    "2 8 * * * https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/freeAppsToday.js, tag=今日限免APP, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/AppStore.png, enabled=true"
+ ]
+}
