@@ -50,7 +50,7 @@
         },{
             "config": "14 8 * * * https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, tag=蜜雪冰城小程序签到, img-url=https://raw.githubusercontent.com/sliverkiss/QuantumultX/main/icon/mxbc.png, enabled=true",
             "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/mxbc.conf, tag=蜜雪冰城获取token"
-        }{
+        },{
             "config": "15 8 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js, tag=伊利乳品, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/yiLi.png, enabled=true",
             "addons": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js, tag=伊利乳品获取token"
         }
