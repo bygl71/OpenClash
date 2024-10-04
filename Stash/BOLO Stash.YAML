@@ -74,7 +74,7 @@ proxy-groups:
 
   - {name: 台湾节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"}
 
-  - {name: 低倍率节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/daily.png, type: select, interval: 300, include-all: true, filter: 日用|0.2}
+  - {name: 低倍率节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/daily.png, type: select, interval: 300, include-all: true, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)"}
 
 rule-providers:
 
@@ -106,6 +106,7 @@ rule-providers:
   Steam: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Steam.list}
   Epic: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Epic.list}
   Bahamut: {behavior: classical, format: text, interval: 86400, url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list}
+
   # AI平台
   AI: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/AI.list}
 
