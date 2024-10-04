@@ -105,7 +105,7 @@ rule-providers:
   # 游戏平台
   Steam: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Steam.list}
   Epic: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Epic.list}
-  Bahamut: {behavior: classical, format: text, interval: 86400, url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list}
+  Bahamut: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Bahamut.list}
 
   # AI平台
   AI: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/AI.list}
@@ -117,7 +117,6 @@ rule-providers:
   Spotify: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Spotify.list}
   
   # 国际媒体
-  Bahamut: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Bahamut.list}
   Netflix: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Netflix.list}
   Disney: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Disney.list}
   PrimeVideo: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/PrimeVideo.list}
