@@ -39,26 +39,29 @@ proxy-groups:
 
 # APP策略分流分组, 按顺序: 国际媒体, 国内媒体, Netflix, TikTok, Google, Microsoft, Apple, AI, Bahamut
 
+  # 全部节点
+  - {name: proxy, icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/Quantumult_X_7.png, type: select, include-all: true, filter: "(?=.*)"}
+
   # 国际媒体
-  - {name: 国际媒体, icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_Popcorn.png, type: select, proxies: [低倍率节点, proxy, direct, HK, TW, JP, KR, SG, US]}
+  - {name: 国际媒体, icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_Popcorn.png, type: select, proxies: [低倍率节点, proxy, DIRECT, HK, TW, JP, KR, SG, US]}
   
   # 国内媒体
-  - {name: 国内媒体, icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_Food.png, type: select, proxies: [direct, proxy, 低倍率节点, HK, TW, JP, KR, SG, US]}
+  - {name: 国内媒体, icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_Food.png, type: select, proxies: [DIRECT, proxy, 低倍率节点, HK, TW, JP, KR, SG, US]}
   
   # Netflix
-  - {name: Netflix, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png, type: select, proxies: [国际媒体, 低倍率节点, proxy, direct, HK, TW, JP, KR, SG, US]}
+  - {name: Netflix, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png, type: select, proxies: [国际媒体, 低倍率节点, proxy, HK, TW, JP, KR, SG, US]}
 
   # TikTok
-  - {name: TikTok, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png, type: select, proxies: [国际媒体, 低倍率节点, proxy, direct, HK, TW, JP, KR, SG, US]}
+  - {name: TikTok, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png, type: select, proxies: [国际媒体, 低倍率节点, proxy, HK, TW, JP, KR, SG, US]}
 
   # Google
-  - {name: Google, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png, type: select, proxies: [国际媒体, 低倍率节点, proxy, direct, HK, TW, JP, KR, SG, US]}
+  - {name: Google, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png, type: select, proxies: [国际媒体, 低倍率节点, proxy, DIRECT, HK, TW, JP, KR, SG, US]}
 
   # Microsoft
-  - {name: Microsoft, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png, type: select, proxies: [direct, proxy, 低倍率节点]}
+  - {name: Microsoft, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png, type: select, proxies: [DIRECT, proxy, 低倍率节点]}
 
   # Apple
-  - {name: Apple, icon: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Apple-2.png, type: select, proxies: [direct, proxy, 低倍率节点]}
+  - {name: Apple, icon: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Apple-2.png, type: select, proxies: [DIRECT, proxy, 低倍率节点]}
 
   # AI
   - {name: AI, icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/OpenAI.png, type: select, proxies: [US, JP, SG, proxy]}
@@ -74,14 +77,20 @@ proxy-groups:
   # 香港节点
   - {name: HK, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)"}
 
+  # 美国节点
   - {name: US, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)"}
 
+  # 新加坡节点
   - {name: SG, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)"}
 
+  # 日本节点
   - {name: JP, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)"}
 
+  # 台湾节点
   - {name: TW, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"}
 
+  # 韩国节点
+  - {name: KR, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png, type: url-test, interval: 300, include-all: true, filter: "(?i)韩|韩国|(\b(KR|Korean)\b)"}
 
 rule-providers:
 
